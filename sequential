@@ -1,0 +1,17 @@
+numbers = []
+aft_numbers = []
+
+c = input("how much numbers? ")
+i = 1
+while i <= c:
+  numbers.append(var(input("input one number"))
+
+for e in numbers:
+    if e == 0:
+        aft_numbers.append(1)
+    else:
+        aft_numbers.append(0)
+
+aft_numbers.reverse()
+print (aft_numbers)
+
