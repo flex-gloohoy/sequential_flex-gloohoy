@@ -1,10 +1,16 @@
 numbers = []
+numbers_2 = []
 aft_numbers = []
 
 c = input("how much numbers? ")
 i = 1
-while i <= c:
-  numbers.append(var(input("input one number"))
+while i <= int(c):
+  numbers.append(int(input("input one number: ")))
+  i+=1
+
+for e in numbers:
+    d = (e * 20)
+    numbers_2.append(d)
 
 for e in numbers:
     if e == 0:
@@ -12,6 +18,6 @@ for e in numbers:
     else:
         aft_numbers.append(0)
 
-aft_numbers.reverse()
+
 print (aft_numbers)
 
